@@ -10640,6 +10640,17 @@ label.panel-block:hover {
   background-size: cover;
 }
 
+.header {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    min-height: 200px;
+    margin-top: 72px;
+  }
+}
+
 .navbar {
   border-bottom: solid 3px #edbe5f;
   background: #ffffffe8;
@@ -10647,14 +10658,32 @@ label.panel-block:hover {
   padding: 1.5rem 0 1rem 0;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 1rem 0 .5rem 0;
+  }
+}
+
 .beige-bottom {
   border-bottom: solid 3px #edbe5f;
 }
 
 .on-hero {
-  margin-top: -68px;
-  background: #ffffffb0;
   padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  .on-hero {
+    margin-top: -68px;
+    background: #ffffffb0;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .on-hero {
+    border-bottom: solid 3px #edbe5f;
+  }
 }
 
 .papyrus {

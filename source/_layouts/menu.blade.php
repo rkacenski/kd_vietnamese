@@ -44,7 +44,7 @@
                                 <span class="papyrus has-text-weight-normal title is-4">
                                     {{ $item->item_name }}
                                 </span>
-                                <strong>${{ money_format('%i', $item->price) }}</strong>
+                                <strong>{{ money_format('$%.2n', $item->price) }}</strong>
                             </p>
                             <p class="subtitle is-6 is-italic">
                                 {{ $item->item_info }}
