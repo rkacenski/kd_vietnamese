@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+$green: #62902c;
+$dark-red: #911035;
+$beige: #edbe5f;
+
+$primary: $green;
+$link: $dark-red;
+$grey-light: $beige;
+
+@import "~bulma/bulma";
+
+//https://github.com/jgthms/bulma/issues/1007
+
+.has-bg-img {
+    background: url('/assets/images/pho.jpg') center center;
+    background-size: cover;
+}
+
+.navbar {
+  border-bottom: solid 3px $beige;
+  background: #ffffffe8;
+  margin-bottom: 0 !important;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.beige-bottom {
+    border-bottom: solid 3px $beige;
+}
+
+.on-hero {
+    margin-top: -68px;
+    background: #ffffffb0;
+    padding: 10px;
+}
+
+.papyrus {
+    font-family: "Papyrus", sans-serif;
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.media img {
+    max-height: 40px;
+    width: auto;
+}

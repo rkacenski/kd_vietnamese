@@ -1,0 +1,6 @@
+{
+    "require": {
+        "tightenco/jigsaw": "^1.2",
+        "prismic/php-sdk": "^4.0"
+    }
+}
