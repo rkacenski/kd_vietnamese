@@ -2,5 +2,11 @@
     "require": {
         "tightenco/jigsaw": "^1.2",
         "prismic/php-sdk": "^4.0"
-    }
+    },
+    "scripts": {
+       "build": [
+           "npm run production",
+           "./vendor/bin/jigsaw build production"
+       ]
+   }
 }
