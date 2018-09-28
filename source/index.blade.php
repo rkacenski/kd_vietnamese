@@ -3,19 +3,19 @@
 @section('body')
 
 
-    <nav class="level navbar is-fixed-top">
-        <p class="level-item has-text-centered is-hidden-touch"></p>
-        <p class="level-item has-text-centered is-hidden-touch">
-            <a class="link is-info">Resturant</a>
-        </p>
-        <p class="level-item has-text-centered">
-            <a class="title is-3 papyrus">TD Vietnam Palace</a>
-        </p>
-        <p class="level-item has-text-centered is-hidden-touch">
-            <a class="link is-info">Menu</a>
-        </p>
-        <p class="level-item has-text-centered is-hidden-touch"></p>
-    </nav>
+<nav class="level navbar is-fixed-top">
+    <p class="level-item has-text-centered is-hidden-touch"></p>
+    <p class="level-item has-text-centered is-hidden-touch">
+        <a href="#resturant" class="link is-info">Resturant</a>
+    </p>
+    <p class="level-item has-text-centered">
+        <a class="title is-3 papyrus">TD Vietnam Palace</a>
+    </p>
+    <p class="level-item has-text-centered is-hidden-touch">
+        <a href="#menu" class="link is-info">Menu</a>
+    </p>
+    <p class="level-item has-text-centered is-hidden-touch"></p>
+</nav>
 
 <section class="hero is-info is-large has-bg-img header">
     <div class="hero-body">
@@ -26,7 +26,7 @@
     <!-- Left side -->
     <div class="level-left">
         <div class="level-item">
-            <p class="title is-2 has-text-success papyrus">Open Now!!</p>
+            <p class="title is-3 has-text-success papyrus">Call us: (475) 282-9268</p>
         </div>
 
     </div>
@@ -34,17 +34,16 @@
     <!-- Right side -->
     <div class="level-right">
         <div class="level-item">
-            <div class="media">
-                <figure class="media-left">
-                    <img src="/assets/images/yelp_logo.png">
-                </figure>
+            <a alt="yelp" href="https://www.yelp.com/biz/td-vietnam-palace-stratford-2">
+                <div class="media">
+                    <figure class="media-left">
+                        <img src="/assets/images/yelp_logo.png">
+                    </figure>
 
-                <p class="image">
-                    <img src="/assets/images/yelp_4stars.png" alt="">
-                </p>
+                    <div class="i-stars large-4" title="4.0 star rating"></div>
 
-            </div>
-
+                </div>
+            </a>
         </div>
         <div class="level-item">
         </div>

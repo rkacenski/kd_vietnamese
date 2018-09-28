@@ -10669,14 +10669,13 @@ label.panel-block:hover {
 }
 
 .on-hero {
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
 }
 
 @media screen and (min-width: 769px) {
   .on-hero {
     margin-top: -68px;
     background: #ffffffb0;
-    padding: 10px;
   }
 }
 
@@ -10697,4 +10696,23 @@ label.panel-block:hover {
 .media img {
   max-height: 40px;
   width: auto;
+}
+
+.i-stars {
+  background: url(https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_design_web/9b34e39ccbeb/assets/img/stars/stars.png) no-repeat;
+  background-size: 132px 560px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.i-stars.large-4 {
+  width: 132px;
+  height: 24px;
+  background-position: 0 -168px;
+}
+
+.i-stars.large-4-half {
+  width: 132px;
+  height: 24px;
+  background-position: 0 -192px;
 }

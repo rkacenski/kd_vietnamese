@@ -1,4 +1,11 @@
-<section class="section">
+<section id="resturant" class="section">
+    <div class="columns">
+        <div class="column">
+            <h2 class="title papyrus is-1 has-text-centered">Resturant</h2>
+        </div>
+    </div>
+
+    <hr>
     <div class="columns">
         <div class="column">
             <h3 class="title papyrus has-text-centered">

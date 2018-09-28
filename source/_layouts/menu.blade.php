@@ -10,7 +10,7 @@
     $docs = $rs->results;
 ?>
 
-<section class="section">
+<section id="menu" class="section">
     <div class="columns">
         <div class="column">
             <h2 class="title papyrus is-1 has-text-centered">Menu</h2>
@@ -44,7 +44,7 @@
                                 <span class="papyrus has-text-weight-normal title is-4">
                                     {{ $item->item_name }}
                                 </span>
-                                <strong>{{ money_format('$%.2n', $item->price) }}</strong>
+                                <strong>${{ money_format('%.2n', $item->price) }}</strong>
                             </p>
                             <p class="subtitle is-6 is-italic">
                                 {{ $item->item_info }}
