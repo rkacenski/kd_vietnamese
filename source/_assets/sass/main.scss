@@ -8,7 +8,22 @@ $primary: $green;
 $link: $dark-red;
 $grey-light: $beige;
 
-@import "~bulma/bulma";
+//@import "~bulma/bulma";
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/grid/_all.sass";
+
+@import "~bulma/sass/layout/_all.sass";
+
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/elements/box.sass";
+@import "~bulma/sass/elements/image.sass";
+
+@import "~bulma/sass/components/level.sass";
+@import "~bulma/sass/components/media.sass";
+
+
 
 //https://github.com/jgthms/bulma/issues/1007
 
