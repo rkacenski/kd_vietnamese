@@ -1,7 +1,7 @@
 <section id="resturant" class="section">
     <div class="columns">
         <div class="column">
-            <h2 class="title papyrus is-1 has-text-centered">Resturant</h2>
+            <h2 class="title papyrus is-1 has-text-centered">Restaurant</h2>
         </div>
     </div>
 
