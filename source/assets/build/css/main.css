@@ -4553,11 +4553,6 @@ a.box:active {
   text-align: left;
 }
 
-.has-bg-img {
-  background: url("/assets/images/banner.jpg") center center;
-  background-size: cover;
-}
-
 .header {
   padding: 0;
 }
@@ -4565,7 +4560,6 @@ a.box:active {
 @media screen and (max-width: 768px) {
   .header {
     min-height: 200px;
-    margin-top: 72px;
   }
 }
 

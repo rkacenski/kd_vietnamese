@@ -17,9 +17,10 @@
     <p class="level-item has-text-centered is-hidden-touch"></p>
 </nav>
 
-<section class="hero is-info is-large has-bg-img header">
-    <div class="hero-body">
-    </div>
+<section class="hero is-large header">
+
+        <img class="hero-body" style="padding: 0" src="/assets/images/banner.jpg" />
+
 </section>
 
 {{--
