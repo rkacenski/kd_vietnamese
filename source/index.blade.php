@@ -22,6 +22,7 @@
     </div>
 </section>
 
+{{--
 <nav class="level on-hero">
     <!-- Left side -->
     <div class="level-left">
@@ -49,7 +50,7 @@
         </div>
     </div>
 </nav>
-
+--}}
 @include('_layouts.about')
 
 <hr>
