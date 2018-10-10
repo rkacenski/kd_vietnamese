@@ -6,7 +6,7 @@
 <nav class="level navbar is-fixed-top">
     <p class="level-item has-text-centered is-hidden-touch"></p>
     <p class="level-item has-text-centered is-hidden-touch">
-        <a href="#resturant" class="link is-info">Resturant</a>
+        <a href="#resturant" class="link is-info">Restaurant</a>
     </p>
     <p class="level-item has-text-centered">
         <a class="title is-3 papyrus">TD Vietnam Palace</a>
