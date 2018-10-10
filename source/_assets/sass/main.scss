@@ -26,7 +26,8 @@ $grey-light: $beige;
 
 
 //https://github.com/jgthms/bulma/issues/1007
-
+//https://codepen.io/jmperez/pen/yYjPER
+//https://alligator.io/vuejs/lazy-image/
 .header {
     @include until($tablet) {
         min-height: 200px;
@@ -48,17 +49,25 @@ $grey-light: $beige;
     border-bottom: solid 3px $beige;
 }
 
-.on-hero {
-    @include from($tablet) {
-        margin-top: -68px;
-        background: #ffffffb0;
-    }
+.feature-image {
+    padding: 10px;
+    box-shadow: #00000045 0px 0px 5px;
+    margin: .75em 4.75em;
+}
 
-    @include until($tablet) {
-        border-bottom: solid 3px $beige;
-    }
+.menu-section {
+    margin: 2.5em 0;
+}
 
-    padding: 20px 10px 10px 10px;
+.menu-section:after {
+    height: 1px;
+    display: block;
+    width: 100px;
+    background: $beige;
+    border-right: 1px white;
+    text-align: center;
+    margin:: 24px auto;
+    content: '';
 }
 
 .papyrus {

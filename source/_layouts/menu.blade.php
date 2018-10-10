@@ -26,35 +26,26 @@
 
 
         <div class="container">
-            <div class="columns is-multiline">
-                @foreach($doc->data->body as $slice)
-                <div class="column is-6">
-                    <div class="box has-text-centered">
-                        <p class="title papyrus is-4 has-text-link">
-                            {{ RichText::asText($slice->primary->menu_section) }}
-                        </p>
-                        <p class="subtitle is-6 is-italic">
-                            {{ RichText::asText($slice->primary->menu_section_description) }}
-                        </p>
+            <div class="columns">
 
-                        @foreach($slice->items as $item)
-                        <article class="menu-item">
-                            <p class="title is-6">
-                                <strong>{{ $item->item_code }} - </strong>
-                                <span class="papyrus has-text-weight-normal title is-4">
-                                    {{ $item->item_name }}
-                                </span>
-                                <strong>{{ money_format('%.2n', $item->price) }}</strong>
-                            </p>
-                            <p class="subtitle is-6 is-italic">
-                                {{ $item->item_info }}
-                            </p>
-                        </article>
-                        @endforeach
-
-                    </div>
+                <div class="column is-6 {{ count($doc->data->body) == 1 ? 'is-offset-3' : '' }}">
+                    @foreach($doc->data->body as $k => $slice)
+                        @if ($k % 2 == 0)
+                            @include('_layouts.menuSlice')
+                        @endif
+                    @endforeach
                 </div>
-                @endforeach
+
+                @if(count($doc->data->body) > 1)
+                    <div class="column is-6">
+                        @foreach($doc->data->body as $k => $slice)
+                            @if ($k % 2 != 0)
+                                @include('_layouts.menuSlice')
+                            @endif
+                        @endforeach
+                    </div>
+                @endif
+
             </div>
         </div>
 
