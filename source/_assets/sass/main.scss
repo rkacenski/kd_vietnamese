@@ -43,6 +43,7 @@ $grey-light: $beige;
     background: #ffffffe8;
     margin-bottom: 0 !important;
     padding: 1.5rem 0 1rem 0;
+    font-weight: bold;
 }
 
 .beige-bottom {
@@ -52,7 +53,11 @@ $grey-light: $beige;
 .feature-image {
     padding: 10px;
     box-shadow: #00000045 0px 0px 5px;
-    margin: .75em 4.75em;
+    margin: .75em;
+    @include from($tablet) {
+        margin: .75em 4.75em;
+    }
+
 }
 
 .menu-section {
