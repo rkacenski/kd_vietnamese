@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+[v-cloak] {
+    display: none;
+}
+
 $green: #62902c;
 $dark-red: #911035;
 $beige: #edbe5f;
@@ -7,6 +11,8 @@ $beige: #edbe5f;
 $primary: $green;
 $link: $dark-red;
 $grey-light: $beige;
+
+$modal-content-width: 920px;
 
 //@import "~bulma/bulma";
 @import "~bulma/sass/utilities/_all.sass";
@@ -22,6 +28,7 @@ $grey-light: $beige;
 
 @import "~bulma/sass/components/level.sass";
 @import "~bulma/sass/components/media.sass";
+@import "~bulma/sass/components/modal.sass";
 
 
 
@@ -51,6 +58,7 @@ $grey-light: $beige;
 }
 
 .feature-image {
+    cursor: pointer;
     padding: 10px;
     box-shadow: #00000045 0px 0px 5px;
     margin: .75em;

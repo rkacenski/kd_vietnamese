@@ -19,6 +19,9 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body>
-        @yield('body')
+        <div id="app" v-cloak>
+            @yield('body')
+        </div>
+        <script src="{{ mix('js/main.js', 'assets/build') }}" charset="utf-8"></script>
     </body>
 </html>

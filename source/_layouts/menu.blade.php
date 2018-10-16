@@ -26,7 +26,7 @@
 
 
         <div class="container">
-            <div class="columns">
+            <div class="columns is-variable is-8">
 
                 <div class="column is-6 {{ count($doc->data->body) == 1 ? 'is-offset-3' : '' }}">
                     @foreach($doc->data->body as $k => $slice)
@@ -52,4 +52,5 @@
         <hr>
     @endforeach
 
+<modal :active.sync="modalActive" :src="imageSrc" />
 </section>

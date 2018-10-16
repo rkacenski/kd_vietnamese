@@ -18,9 +18,7 @@
 </nav>
 
 <section class="hero is-large header">
-
-        <img class="hero-body" style="padding: 0" src="/assets/images/banner.jpg" />
-
+    <img class="hero-body" style="padding: 0" src="/assets/images/banner.jpg" />
 </section>
 
 {{--
@@ -52,6 +50,7 @@
     </div>
 </nav>
 --}}
+
 @include('_layouts.about')
 
 <hr>

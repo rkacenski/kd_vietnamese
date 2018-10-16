@@ -11,11 +11,10 @@
         </p>
 
         @if(isset($slice->primary->section_image->url))
-        <div class="feature-image">
-            <img src="{{ $slice->primary->section_image->url }}" />
-            @if(isset($slice->primary->image_desc))
-            <figcaption>{{ $slice->primary->image_desc }}</figcaption>
-            @endif
+        <div class="feature-image" @click="showImage('{{ $slice->primary->section_image->url }}')">
+            <img-loader
+                :meta="{{ json_encode($slice->primary->section_image) }}"
+                desc="{{ $slice->primary->image_desc ?? '' }}" />
         </div>
         @endif
 
