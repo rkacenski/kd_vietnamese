@@ -84,6 +84,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     props: ['meta', 'desc'],
@@ -1593,6 +1594,7 @@ var render = function() {
       _c("img", {
         ref: "placeholder",
         attrs: {
+          src: _vm.meta.thumb.url,
           width: _vm.meta.dimensions.width,
           height: _vm.meta.dimensions.height
         }

@@ -2,6 +2,7 @@
     <div>
         <div class="placeholder">
             <img ref="placeholder"
+                :src="meta.thumb.url"
                 :width="meta.dimensions.width"
                 :height="meta.dimensions.height" />
             <img class="img-small"
