@@ -55,6 +55,10 @@
 
 <hr>
 
+@include('_layouts.specials')
+
 @include('_layouts.menu')
+
+@include('_layouts.gallery')
 
 @endsection
