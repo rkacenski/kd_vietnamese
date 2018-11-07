@@ -53,6 +53,8 @@ $modal-content-width: 920px;
     font-weight: bold;
 }
 
+.phone:before { content: "\2706"; }
+
 .beige-bottom {
     border-bottom: solid 3px $beige;
 }

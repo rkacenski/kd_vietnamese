@@ -4783,6 +4783,10 @@ a.box:active {
   }
 }
 
+.phone:before {
+  content: "\2706";
+}
+
 .beige-bottom {
   border-bottom: solid 3px #edbe5f;
 }

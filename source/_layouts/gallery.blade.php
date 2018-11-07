@@ -6,7 +6,7 @@
     $images = $document->data->gallery;
 ?>
 
-<section id="menu" class="section">
+<section id="gallery" class="section">
     <div class="columns">
         <div class="column">
             <h2 class="title papyrus is-1 has-text-centered">Gallery</h2>

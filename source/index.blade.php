@@ -4,17 +4,22 @@
 
 
 <nav class="level navbar is-fixed-top">
-    <p class="level-item has-text-centered is-hidden-touch"></p>
     <p class="level-item has-text-centered is-hidden-touch">
         <a href="#resturant" class="link is-info">Restaurant</a>
+    </p>
+    <p class="level-item has-text-centered is-hidden-touch">
+        <a href="#gallery" class="link is-info">Gallery</a>
     </p>
     <p class="level-item has-text-centered">
         <a class="title is-3 papyrus">TD Vietnam Palace</a>
     </p>
+
     <p class="level-item has-text-centered is-hidden-touch">
         <a href="#menu" class="link is-info">Menu</a>
     </p>
-    <p class="level-item has-text-centered is-hidden-touch"></p>
+    <p class="level-item has-text-centered is-hidden-touch">
+        <a href="tel:475-282-9268" class="link is-info">📞 (475) 282-9268</a>
+    </p>
 </nav>
 
 <section class="hero is-large header">
