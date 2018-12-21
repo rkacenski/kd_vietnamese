@@ -1,3 +1,11 @@
+<?php
+    //use ;
+
+    $api = \Prismic\Api::get(PRISMIC_URL);
+    $document = $api->getSingle('hours');
+    $hours = $document->data;
+?>
+
 <section id="resturant" class="section">
     <div class="columns">
         <div class="column">
@@ -29,9 +37,11 @@
                 Hours
             </h3>
             <div class="columns is-multiline">
+                @if($hours->show == 'showing')
                 <div class="column is-12">
-                    <p class="title is-4 papyrus has-text-link">Closed November 22, 2018</p>
+                    <p class="title is-4 papyrus has-text-link">{{ $hours->message }}</p>
                 </div>
+                @endif
                 <div class="column is-12">
                     <p class="title is-4 papyrus has-text-primary">Monday - Friday</p>
                     <p class="subtitle is-4 papyrus has-text-primary">10am - 3pm & 5pm - 10pm</p>
